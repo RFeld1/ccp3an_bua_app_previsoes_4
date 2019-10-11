@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width"/>
+    <title>Hello Spring Boot</title>
+    <link th:href="@{/webjars/bootstrap/css/bootstrap.min.css}" rel="stylesheet"/>
+    <link th:href="@{/webjars/bootstrap/css/bootstrap-theme.min.css}" rel="stylesheet"/>
+</head>
+<body>
+<div class="panel panel-default" style="margin: 10px">
+    <div class="panel-heading">
+        <h4 class="title" style="display: inline;">Previsão do tempo para: </h4>
+        <h1 class="panel-title" style="display: inline;"> Guaratinguetá, SP, BR</h1>
+    </div>
+    <div class="panel-body">
+        <table class="table">
+            <thead>
+            <tr>
+                <th>Dia da Semana</th>
+                <th>Temperatura Min.</th>
+                <th>Temperatura Max.</th>
+                <th>Humidade Relativa do Ar</th>
+                <th>Descrição</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="periodo : ${periodos}">
+                <td th:text="${periodo.diaSemana}"></td>
+                <td th:text="${periodo.temperaturaMin}"></td>
+                <td th:text="${periodo.temperaturaMax}"></td>
+                <td th:text="${periodo.huminade}"></td>
+                <td th:text="${periodo.descricao}"></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+ORIENTAÇÕES
+
+PASSO-A-PASSO:
+Iniciar a aplicação, rodando a classe TesteCriarBaseETabelas, que está no  package br.usjt.ativ03previsaoDoTempo
+
+obs1: Caso dê erro, precisa criar a database. Abra o arquivo comandos.sql que está ná src/main/resources
+copie o comando do create database e rode-o no MySql Workbench;
+
+Execute novamente a classe TesteCriarBaseETabelas;
+obs2: Se deu erro, precisa copiar os comandos de drop table do comandos.sql e rodar novamente essa classe.
+
+
+Classes com métodos estáticos JPA para crud estão no package:
+br.usjt.ativ03previsaoDoTempo.jpaCrud
+
+obsFinal: Deixei mesclado as classes e pacotes da ativ02 dentro do projeto, para, caso formos realizar integração, facilitar o trabalho.
