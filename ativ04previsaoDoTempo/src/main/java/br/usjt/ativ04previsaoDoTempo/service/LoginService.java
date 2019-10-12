@@ -1,10 +1,10 @@
-package br.usjt.ativ03previsaoDoTempo.service;
+package br.usjt.ativ04previsaoDoTempo.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import br.usjt.ativ03previsaoDoTempo.model.Usuario;
-import br.usjt.ativ03previsaoDoTempo.repository.UsuarioRepository;
+import br.usjt.ativ04previsaoDoTempo.model.Usuario;
+import br.usjt.ativ04previsaoDoTempo.repository.UsuarioRepository;
 
 
 

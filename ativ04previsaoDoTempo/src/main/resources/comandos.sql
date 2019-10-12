@@ -1,21 +1,20 @@
--- Comandos para a ativ03
+-- Comandos para a ativ04
 
 SHOW DATABASES;
 
---se não criou automatico:
-create database ativ03previsaodotempo;
+-- se não criou automatico:
+create database ativ04previsaodotempo;
 
-USE ativ03previsaodotempo;
+USE ativ04previsaodotempo;
 
 SHOW TABLES;
 
-DESC tb_usuario;
-DESC tb_periodo;
-DESC tb_diasemana;
+DESC tb_cidade;
+DESC tb_previsao;
 
-select * from tb_periodo;
-select * from tb_diasemana;
 
--- drop table tb_usuario;
--- drop table tb_periodo;
--- drop table tb_diasemana;
+select * from tb_cidade;
+select * from tb_previsao;
+
+-- drop table tb_cidade;
+-- drop table tb_previsao;

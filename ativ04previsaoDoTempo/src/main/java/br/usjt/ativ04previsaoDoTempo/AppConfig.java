@@ -1,11 +1,11 @@
-package br.usjt.ativ03previsaoDoTempo;
+package br.usjt.ativ04previsaoDoTempo;
 
 //import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
-import br.usjt.ativ03previsaoDoTempo.repository.LoginInterceptor;
+import br.usjt.ativ04previsaoDoTempo.repository.LoginInterceptor;
 
 
 @Configuration

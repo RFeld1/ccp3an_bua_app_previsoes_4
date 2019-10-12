@@ -1,4 +1,4 @@
-package br.usjt.ativ03previsaoDoTempo.repository;
+package br.usjt.ativ04previsaoDoTempo.repository;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

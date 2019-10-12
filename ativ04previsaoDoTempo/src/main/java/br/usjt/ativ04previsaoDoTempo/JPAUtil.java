@@ -1,4 +1,4 @@
-package br.usjt.ativ03previsaoDoTempo;
+package br.usjt.ativ04previsaoDoTempo;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;

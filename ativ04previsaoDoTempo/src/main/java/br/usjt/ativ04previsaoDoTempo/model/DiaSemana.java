@@ -1,4 +1,4 @@
-package br.usjt.ativ03previsaoDoTempo.model;
+package br.usjt.ativ04previsaoDoTempo.model;
 
 import java.io.Serializable;
 

@@ -1,11 +1,11 @@
-package br.usjt.ativ03previsaoDoTempo.service;
+package br.usjt.ativ04previsaoDoTempo.service;
 
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import br.usjt.ativ03previsaoDoTempo.model.Periodo;
-import br.usjt.ativ03previsaoDoTempo.repository.PeriodoRepository;
+import br.usjt.ativ04previsaoDoTempo.model.Periodo;
+import br.usjt.ativ04previsaoDoTempo.repository.PeriodoRepository;
 
 @Service
 public class PeriodoService {

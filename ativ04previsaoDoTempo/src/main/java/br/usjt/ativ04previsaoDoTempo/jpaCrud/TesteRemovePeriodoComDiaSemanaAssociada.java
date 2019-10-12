@@ -1,10 +1,10 @@
-package br.usjt.ativ03previsaoDoTempo.jpaCrud;
+package br.usjt.ativ04previsaoDoTempo.jpaCrud;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityTransaction;
 
-import br.usjt.ativ03previsaoDoTempo.JPAUtil;
-import br.usjt.ativ03previsaoDoTempo.model.Periodo;
+import br.usjt.ativ04previsaoDoTempo.JPAUtil;
+import br.usjt.ativ04previsaoDoTempo.model.Periodo;
 
 
 public class TesteRemovePeriodoComDiaSemanaAssociada {
